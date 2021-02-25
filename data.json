@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Random Quotes",
+      "project_name": "Random Quote Generator",
       "description": "Program that displays random quotes each time a click happens or at ten second interals.",
       "technologies": ["Javascript", "HTML", "CSS"],
       "live_link": "https://gabbyjj.github.io/Project-1/",
