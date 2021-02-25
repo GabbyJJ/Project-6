@@ -1,0 +1,25 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        //- Use the info in your data file and the comments below to complete this template
+
+        //- Use interpolation to dynamically add the project title
+        h1= error.status
+
+        //- Use interpolation to dynamically add the project description
+        p= error.message 
+ 
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

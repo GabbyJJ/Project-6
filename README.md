@@ -1,0 +1,1 @@
+This project creates a portfolio. It features work from previous projects and gives an error message if the page requested is not found.. I have changed the background and text color for a more exciting look that represents me. Also, I changed the font to "Poppin". The json file has also been customized.

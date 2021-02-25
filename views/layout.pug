@@ -5,7 +5,7 @@ html(lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap", rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -14,25 +14,25 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/images/PP.jpg', alt='')
         .dev-intro-box
 
           //- Replace with your name
-          h5 Name
+          h5 Gabryel Jackson
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p My name is Gabryel Jackson. I work for SRP Environmental. I am awesome because I have the fastest fingers on this side of the Mississippi.
 
-          //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+        
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
-          span Name
+          
+          span Gabryel Jackson
 
       block content
 

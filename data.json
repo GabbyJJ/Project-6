@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quotes",
+      "description": "Program that displays random quotes each time a click happens or at ten second interals.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gabbyjj.github.io/Project-1/",
+      "github_link": "https://github.com/GabbyJJ/Project-1",
+      "images_urls": [
+        "/static/images/1.1.PNG",
+        "/static/images/1.2.PNG",
+        "/static/images/1.3.PNG",
+        "/static/images/1.4.PNG"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Student Page",
+      "description": "Program that displays data for each student.",
+      "technologies": ["Javascript", "HTML", "CSS", "DOM", "Data Pagination"],
+      "live_link": "https://gabbyjj.github.io/Project-2/",
+      "github_link": "https://github.com/GabbyJJ/Project-2",
+      "images_urls": [
+        "/static/images/2.1.PNG",
+        "/static/images/2.2.PNG",
+        "/static/images/2.3.PNG"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Interative form to buy programs",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gabbyjj.github.io/Project-3/",
+      "github_link": "https://github.com/GabbyJJ/Project-3",
+      "images_urls": [
+        "/static/images/3.1.PNG",
+        "/static/images/3.2.PNG",
+        "/static/images/3.3.PNG"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "PhraseHunter",
+      "description": "A program that lets the user select letters in a guessing game. After five attempts selecting the wrong letter, player will get a game over.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gabbyjj.github.io/Project-4/",
+      "github_link": "https://github.com/GabbyJJ/Project-4",
+      "images_urls": [
+        "/static/images/4.1.PNG",
+        "/static/images/4.2.PNG",
+        "/static/images/4.3.PNG",
+        "/static/images/4.4.PNG"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Awesome Start Up",
+      "description": "Employee directory using a communication with a third-party API.",
+      "technologies": ["API", "AJAX"],
+      "live_link": "https://gabbyjj.github.io/Project-5/",
+      "github_link": "https://github.com/GabbyJJ/Project-5",
+      "images_urls": [
+        "/static/images/5.1.PNG",
+        "/static/images/5.2.PNG",
+        "/static/images/5.3.PNG"
+      ]
+    }
+  ]
+}
