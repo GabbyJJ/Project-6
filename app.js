@@ -1,5 +1,4 @@
 //Variable to require dependencies
-const { request, response } = require("express");
 const express = require("express");
 const data = require("./data.json");
 const app = express();
@@ -36,10 +35,11 @@ app.get("/projects/:id", (req, res, next) => {
 app.use((req, res, next) => {
   const error = new Error("Page not found.");
   error.status = 404;
-  next(error);
+
   console.log(`${error.message} status code: ${error.status}`);
-  res.locals.error = error;
-  res.render("error");
+
+  res.render("page-not-found");
+  next();
 });
 //Global Error Handler
 app.use((err, req, res, next) => {
